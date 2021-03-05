@@ -35,7 +35,7 @@ public class HLSDKJCryptoSuiteFactory implements CryptoSuiteFactory {
     private static final Map<Properties, CryptoSuite> cache = new ConcurrentHashMap<>();
     private static CryptoSuiteFactory theFACTORY = null;
 
-    private HLSDKJCryptoSuiteFactory() {
+    public HLSDKJCryptoSuiteFactory() {
     }
 
     //modify by bryan
